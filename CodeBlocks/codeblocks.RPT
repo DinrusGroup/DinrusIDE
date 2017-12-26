@@ -1,0 +1,433 @@
+-------------------
+
+Error occured on Thursday, March 16, 2017 at 13:23:16.
+
+codeblocks.exe caused an Access Violation at location 00610068 in module codeblocks.exe Reading from location 35E835E4.
+
+Loading symbols... done.
+
+Registers:
+eax=35b935b7 ebx=01eaf968 ecx=04555268 edx=04555268 esi=618bbca0 edi=082abec8
+eip=00610068 esp=0022f93c ebp=0022f9a8 iopl=0         nv up ei pl nz na po nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00010206
+
+AddrPC   Params
+00610068 04555268 082BF138 082BF138  codeblocks.exe!vtable for cbCompilerPlugin
+65ED6962 082ABEC8 082BF138 00912D78  codecompletion.dll!0x56962
+65ED6C7B 082ABEC8 082BF138 0022FBA8  codecompletion.dll!0x56c7b
+65ED7460 082ABEC8 6D1296A0 6D1C7D42  codecompletion.dll!0x57460
+65EA180E 00000000 0682E7C0 0022FD68  codecompletion.dll!0x2180e
+65EA182E 00000002 01564278 00000000  codecompletion.dll!0x2182e
+6CC7C54A 00400000 00000000 006E2E97  wxmsw28u_gcc_cb.dll!wxEntryReal
+00401D98 7FFDF000 00000000 7FFDF000  codeblocks.exe!0x1d98
+004010FD 7FFDF000 776AD6AC 00000000  codeblocks.exe!0x10fd
+77C2367A 004012A0 7FFDF000 00000000  ntdll.dll!___RtlUserThreadStart@8
+77C2364D 004012A0 7FFDF000 00000000  ntdll.dll!__RtlUserThreadStart@8
+
+codeblocks.exe	16.1.0.0
+ntdll.dll   	6.1.7601.23572
+aswhookx.dll	17.2.2.60911
+kernel32.dll	6.1.7601.23392
+KERNELBASE.dll	6.1.7601.23392
+COMCTL32.DLL	6.10.7601.18837
+msvcrt.dll  	7.0.7601.17744
+GDI32.dll   	6.1.7601.23591
+USER32.dll  	6.1.7601.23594
+LPK.dll     	6.1.7601.23587
+USP10.dll   	1.626.7601.23585
+SHLWAPI.dll 	6.1.7601.17514
+SHELL32.DLL 	6.1.7601.23537
+SHFOLDER.DLL	6.1.7600.16385
+wxmsw28u_gcc_cb.dll	2.8.12.0
+ADVAPI32.DLL	6.1.7601.23572
+sechost.dll 	6.1.7601.18869
+RPCRT4.dll  	6.1.7601.23642
+COMDLG32.DLL	6.1.7601.17514
+OLE32.dll   	6.1.7601.23392
+OLEAUT32.DLL	6.1.7601.23569
+WINMM.DLL   	6.1.7601.17514
+WINSPOOL.DRV	6.1.7601.17514
+WSOCK32.DLL 	6.1.7600.16385
+WS2_32.dll  	6.1.7601.23451
+NSI.dll     	6.1.7600.16385
+codeblocks.dll
+wxpropgrid.dll
+exchndl.dll 	0.7.7.0
+mgwhelp.dll 	0.7.7.0
+dbghelp.dll 	6.3.9600.17029
+PSAPI.DLL   	6.1.7600.16385
+VERSION.dll 	6.1.7600.16385
+IMM32.DLL   	6.1.7601.17514
+MSCTF.dll   	6.1.7601.23572
+CRYPTBASE.dll	6.1.7601.23642
+uxtheme.dll 	6.1.7600.16385
+SspiCli.dll 	6.1.7601.23642
+dwmapi.dll  	6.1.7601.18917
+CLBCatQ.DLL 	2001.12.8530.16385
+CRYPTSP.dll 	6.1.7601.23471
+rsaenh.dll  	6.1.7600.16385
+RpcRtRemote.dll	6.1.7601.17514
+msftedit.DLL	5.41.21.2510
+abbreviations.dll
+astyle.dll
+autosave.dll
+AutoVersioning.dll
+BrowseTracker.dll
+byogames.dll
+cb_koders.dll
+Cccc.dll
+classwizard.dll
+codecompletion.dll
+codesnippets.dll
+codestat.dll
+compiler.dll
+copystrings.dll
+CppCheck.dll
+Cscope.dll
+debugger.dll
+defaultmimehandler.dll
+devpakupdater.dll
+DoxyBlocks.dll	1.7.663.8397
+DragScroll.dll
+EditorConfig.dll
+EditorTweaks.dll
+envvars.dll
+Exporter.dll
+FileManager.dll
+FortranProject.dll
+headerfixup.dll
+help_plugin.dll
+HexEditor.dll
+IncrementalSearch.dll
+keybinder.dll
+lib_finder.dll
+wxflatnotebook.dll
+MouseSap.dll
+NassiShneiderman.dll
+OccurrencesHighlighting.dll
+openfileslist.dll
+Profiler.dll
+ProjectOptionsManipulator.dll
+projectsimporter.dll
+RegExTestbed.dll
+ReopenEditor.dll
+rndgen.dll
+scriptedwizard.dll
+SmartIndentCpp.dll
+SmartIndentFortran.dll
+SmartIndentHDL.dll
+SmartIndentLua.dll
+SmartIndentPascal.dll
+SmartIndentPython.dll
+SmartIndentXML.dll
+SpellChecker.dll
+SymTab.dll
+ThreadSearch.dll
+wxcustombutton.dll
+todo.dll
+ToolsPlus.dll
+wxsmith.dll
+wxsmithlib.dll
+wxSmithAui.dll
+wxSmithContribItems.dll
+wxchartctrl.dll
+wximagepanel.dll
+wxkwic.dll
+wxled.dll
+wxmathplot.dll
+wxspeedbutton.dll
+wxtreelist.dll
+xpmanifest.dll
+apphelp.dll 	6.1.7601.19050
+msimg32.dll 	6.1.7600.16385
+profapi.dll 	6.1.7600.16385
+WININET.dll 	11.0.9600.18538
+api-ms-win-downlevel-user32-l1-1-0.dll	6.2.9200.16492
+api-ms-win-downlevel-shlwapi-l1-1-0.dll	6.2.9200.16492
+api-ms-win-downlevel-version-l1-1-0.dll	6.2.9200.16492
+api-ms-win-downlevel-normaliz-l1-1-0.dll	6.2.9200.16492
+normaliz.DLL	6.1.7600.16385
+iertutil.dll	11.0.9600.18538
+api-ms-win-downlevel-advapi32-l1-1-0.dll	6.2.9200.16492
+USERENV.dll 	6.1.7601.17514
+Secur32.dll 	6.1.7601.23642
+api-ms-win-downlevel-advapi32-l2-1-0.dll	6.2.9200.16492
+api-ms-win-downlevel-ole32-l1-1-0.dll	6.2.9200.16492
+mswsock.dll 	6.1.7601.23451
+wship6.dll  	6.1.7600.16385
+IPHLPAPI.DLL	6.1.7601.17514
+WINNSI.DLL  	6.1.7600.16385
+api-ms-win-downlevel-shlwapi-l2-1-0.dll	6.2.9200.16492
+DNSAPI.dll  	6.1.7601.17570
+urlmon.dll  	11.0.9600.18538
+wshtcpip.dll	6.1.7600.16385
+dhcpcsvc6.DLL	6.1.7601.17970
+rasadhlp.dll	6.1.7600.16385
+netprofm.dll	6.1.7600.16385
+nlaapi.dll  	6.1.7601.17964
+dhcpcsvc.DLL	6.1.7600.16385
+npmproxy.dll	6.1.7600.16385
+fwpuclnt.dll	6.1.7601.18283
+Cabinet.dll 	6.1.7601.17514
+
+Windows 6.1.7601
+DrMingw 0.7.7
+
+-------------------
+
+Error occured on Friday, October 20, 2017 at 23:58:26.
+
+codeblocks.exe caused an Access Violation at location 6CE5F930 in module wxmsw28u_gcc_cb.dll Reading from location 00000028.
+
+Loading symbols... done.
+
+Registers:
+eax=00000000 ebx=09462840 ecx=09462840 edx=0000001c esi=0000001c edi=00000001
+eip=6ce5f930 esp=0022f7ac ebp=0022f9c4 iopl=0         nv up ei pl nz na po nc
+cs=001b  ss=0023  ds=0023  es=0023  fs=003b  gs=0000             efl=00210206
+
+AddrPC   Params
+6CE5F930 0000001C 00000001 00000D04  wxmsw28u_gcc_cb.dll!wxWindowBase::SetForegroundColour
+6CD49D36 00650486 0000001C 00000001  wxmsw28u_gcc_cb.dll!wxWndProc
+7716C4B7 6CD49CD0 00650486 0000001C  USER32.dll!_InternalCallWinProc@20
+7716C5B7 00000000 6CD49CD0 00650486  USER32.dll!_UserCallWinProcCheckWow@32
+77164EDE 00A47570 0000001C 00000001  USER32.dll!_DispatchClientMessage@20
+77164F4D 0022FB44 00000018 0022FFC4  USER32.dll!___fnDWORD@4
+77516BAE 7716CDE3 0022FBD4 00000000  ntdll.dll!_KiUserCallbackDispatcher@12
+7716CDB0 0022FBD4 00000000 00000000  USER32.dll!_NtUserGetMessage@16
+7716CDE3 0022FBD4 00000000 00000000  USER32.dll!_GetMessageW@16
+6CD2427C 0022FC1C 00000000 00361780  wxmsw28u_gcc_cb.dll!wxEventLoop::Dispatch
+
+codeblocks.exe	16.1.0.0
+ntdll.dll   	6.1.7601.23915
+kernel32.dll	6.1.7601.23889
+KERNELBASE.dll	6.1.7601.23889
+COMCTL32.DLL	6.10.7601.18837
+msvcrt.dll  	7.0.7601.17744
+GDI32.dll   	6.1.7601.23914
+USER32.dll  	6.1.7601.23594
+LPK.dll     	6.1.7601.23807
+USP10.dll   	1.626.7601.23894
+SHLWAPI.dll 	6.1.7601.17514
+SHELL32.DLL 	6.1.7601.23893
+SHFOLDER.DLL	6.1.7600.16385
+wxmsw28u_gcc_cb.dll	2.8.12.0
+ADVAPI32.DLL	6.1.7601.23915
+sechost.dll 	6.1.7601.18869
+RPCRT4.dll  	6.1.7601.23915
+COMDLG32.DLL	6.1.7601.17514
+OLE32.dll   	6.1.7601.23889
+OLEAUT32.DLL	6.1.7601.23775
+WINMM.DLL   	6.1.7601.17514
+WINSPOOL.DRV	6.1.7601.17514
+WSOCK32.DLL 	6.1.7600.16385
+WS2_32.dll  	6.1.7601.23451
+NSI.dll     	6.1.7601.23889
+codeblocks.dll
+wxpropgrid.dll
+exchndl.dll 	0.7.7.0
+mgwhelp.dll 	0.7.7.0
+dbghelp.dll 	6.3.9600.17029
+PSAPI.DLL   	6.1.7600.16385
+VERSION.dll 	6.1.7600.16385
+IMM32.DLL   	6.1.7601.17514
+MSCTF.dll   	6.1.7601.23915
+CRYPTBASE.dll	6.1.7601.23915
+uxtheme.dll 	6.1.7600.16385
+SspiCli.dll 	6.1.7601.23915
+dwmapi.dll  	6.1.7601.18917
+CRYPTSP.dll 	6.1.7601.23471
+rsaenh.dll  	6.1.7600.16385
+RpcRtRemote.dll	6.1.7601.17514
+msftedit.DLL	5.41.21.2510
+abbreviations.dll
+astyle.dll
+autosave.dll
+AutoVersioning.dll
+BrowseTracker.dll
+byogames.dll
+cb_koders.dll
+Cccc.dll
+classwizard.dll
+codecompletion.dll
+codesnippets.dll
+codestat.dll
+compiler.dll
+copystrings.dll
+CppCheck.dll
+Cscope.dll
+debugger.dll
+defaultmimehandler.dll
+devpakupdater.dll
+DoxyBlocks.dll	1.7.663.8397
+DragScroll.dll
+EditorConfig.dll
+EditorTweaks.dll
+envvars.dll
+Exporter.dll
+FileManager.dll
+FortranProject.dll
+headerfixup.dll
+help_plugin.dll
+HHCTRL.OCX  	6.1.7600.16385
+HexEditor.dll
+IncrementalSearch.dll
+keybinder.dll
+lib_finder.dll
+wxflatnotebook.dll
+MouseSap.dll
+NassiShneiderman.dll
+OccurrencesHighlighting.dll
+openfileslist.dll
+Profiler.dll
+ProjectOptionsManipulator.dll
+projectsimporter.dll
+RegExTestbed.dll
+ReopenEditor.dll
+rndgen.dll
+scriptedwizard.dll
+SmartIndentCpp.dll
+SmartIndentFortran.dll
+SmartIndentHDL.dll
+SmartIndentLua.dll
+SmartIndentPascal.dll
+SmartIndentPython.dll
+SmartIndentXML.dll
+SpellChecker.dll
+SymTab.dll
+ThreadSearch.dll
+wxcustombutton.dll
+todo.dll
+ToolsPlus.dll
+wxsmith.dll
+wxsmithlib.dll
+wxSmithAui.dll
+wxSmithContribItems.dll
+wxchartctrl.dll
+wximagepanel.dll
+wxkwic.dll
+wxled.dll
+wxmathplot.dll
+wxspeedbutton.dll
+wxtreelist.dll
+xpmanifest.dll
+apphelp.dll 	6.1.7601.19050
+msimg32.dll 	6.1.7600.16385
+profapi.dll 	6.1.7600.16385
+CLBCatQ.DLL 	2001.12.8530.16385
+propsys.dll 	7.0.7601.17514
+ntmarta.dll 	6.1.7600.16385
+WLDAP32.dll 	6.1.7601.23889
+SETUPAPI.dll	6.1.7601.17514
+CFGMGR32.dll	6.1.7601.17514
+DEVOBJ.dll  	6.1.7600.16385
+explorerframe.dll	6.1.7601.23893
+DUser.dll   	6.1.7600.16385
+DUI70.dll   	6.1.7600.16385
+WindowsCodecs.dll	6.2.9200.21830
+TortoiseOverlays.dll	1.1.4.26626
+api-ms-win-core-synch-l1-2-0.DLL	10.0.10586.788
+TortoiseStub32.dll	1.9.5.27581
+TortoiseSVN32.dll	1.9.5.27581
+WININET.dll 	11.0.9600.18817
+api-ms-win-downlevel-user32-l1-1-0.dll	6.2.9200.16492
+api-ms-win-downlevel-shlwapi-l1-1-0.dll	6.2.9200.16492
+api-ms-win-downlevel-version-l1-1-0.dll	6.2.9200.16492
+api-ms-win-downlevel-normaliz-l1-1-0.dll	6.2.9200.16492
+normaliz.DLL	6.1.7600.16385
+iertutil.dll	11.0.9600.18817
+api-ms-win-downlevel-advapi32-l1-1-0.dll	6.2.9200.16492
+USERENV.dll 	6.1.7601.17514
+libsvn_tsvn32.dll	1.9.5.1210
+libapr_tsvn32.dll	1.5.2.0
+MSWSOCK.dll 	6.1.7601.23451
+VCRUNTIME140.dll	14.0.23026.0
+api-ms-win-crt-runtime-l1-1-0.dll	10.0.10586.15
+ucrtbase.DLL	10.0.10586.788
+api-ms-win-core-timezone-l1-1-0.dll	10.0.10586.788
+api-ms-win-core-file-l2-1-0.dll	10.0.10586.788
+api-ms-win-core-localization-l1-2-0.dll	10.0.10586.788
+api-ms-win-core-processthreads-l1-1-1.dll	10.0.10586.788
+api-ms-win-core-file-l1-2-0.dll	10.0.10586.788
+api-ms-win-crt-string-l1-1-0.dll	10.0.10586.15
+api-ms-win-crt-heap-l1-1-0.dll	10.0.10586.15
+api-ms-win-crt-stdio-l1-1-0.dll	10.0.10586.15
+api-ms-win-crt-convert-l1-1-0.dll	10.0.10586.15
+api-ms-win-crt-conio-l1-1-0.dll	10.0.10586.15
+api-ms-win-crt-utility-l1-1-0.dll	10.0.10586.15
+api-ms-win-crt-math-l1-1-0.dll	10.0.10586.15
+api-ms-win-crt-environment-l1-1-0.dll	10.0.10586.15
+api-ms-win-crt-time-l1-1-0.dll	10.0.10586.15
+libaprutil_tsvn32.dll	1.5.4.0
+intl3_tsvn32.dll	0.14.6.0
+api-ms-win-crt-filesystem-l1-1-0.dll	10.0.10586.15
+libsasl32.dll	2.1.24.0
+Secur32.dll 	6.1.7601.23915
+CRYPT32.dll 	6.1.7601.23769
+MSASN1.dll  	6.1.7601.17514
+api-ms-win-crt-locale-l1-1-0.dll	10.0.10586.15
+MSVCP140.dll	14.0.23026.0
+api-ms-win-crt-multibyte-l1-1-0.dll	10.0.10586.15
+crshhndl.dll	1.0.15.0
+ashShell.dll	17.7.3660.0
+gdiplus.dll 	6.1.7601.23894
+msi.dll     	5.0.7601.23593
+EhStorShell.dll	6.1.7600.16385
+GrooveShellExtensions.dll	12.0.6500.5000
+GrooveUtil.DLL	12.0.6606.1000
+MSVCR80.dll 	8.0.50727.6229
+GrooveNew.DLL	12.0.6500.5000
+ATL80.DLL   	8.0.50727.762
+msls31.dll  	3.10.349.0
+tiptsf.dll  	6.1.7601.18984
+xmllite.dll 	1.3.1001.0
+StructuredQuery.dll	7.0.7601.23451
+actxprxy.dll	6.1.7601.17514
+ieproxy.dll 	11.0.9600.18817
+api-ms-win-downlevel-shlwapi-l2-1-0.dll	6.2.9200.16492
+SearchFolder.dll	6.1.7601.17514
+thumbcache.dll	6.1.7601.17514
+ntshrui.dll 	6.1.7601.17755
+srvcli.dll  	6.1.7601.17514
+cscapi.dll  	6.1.7601.17514
+slc.dll     	6.1.7600.16385
+SHDOCVW.dll 	6.1.7601.23896
+ieframe.DLL 	11.0.9600.18817
+api-ms-win-downlevel-shell32-l1-1-0.dll	6.2.9200.16492
+oleacc.dll  	7.0.0.0
+MPR.dll     	6.1.7600.16385
+drprov.dll  	6.1.7600.16385
+WINSTA.dll  	6.1.7601.18540
+ntlanman.dll	6.1.7601.17514
+NetworkExplorer.dll	6.1.7601.17514
+davclnt.dll 	6.1.7601.23542
+DAVHLPR.dll 	6.1.7600.16385
+wkscli.dll  	6.1.7601.17514
+netutils.dll	6.1.7601.17514
+LINKINFO.dll	6.1.7600.16385
+PortableDeviceApi.dll	6.1.7601.17514
+GrooveSystemServices.dll	12.0.6500.5000
+msxml3.dll  	8.110.7601.23648
+bcrypt.dll  	6.1.7601.23915
+WINTRUST.dll	6.1.7601.23769
+EhStorAPI.dll	6.1.7601.17514
+urlmon.dll  	11.0.9600.18817
+api-ms-win-downlevel-ole32-l1-1-0.dll	6.2.9200.16492
+api-ms-win-downlevel-advapi32-l2-1-0.dll	6.2.9200.16492
+wship6.dll  	6.1.7600.16385
+IPHLPAPI.DLL	6.1.7601.17514
+WINNSI.DLL  	6.1.7601.23889
+DNSAPI.dll  	6.1.7601.17570
+netprofm.dll	6.1.7600.16385
+nlaapi.dll  	6.1.7601.17964
+dhcpcsvc6.DLL	6.1.7601.17970
+wshtcpip.dll	6.1.7600.16385
+dhcpcsvc.DLL	6.1.7600.16385
+rasadhlp.dll	6.1.7600.16385
+npmproxy.dll	6.1.7600.16385
+fwpuclnt.dll	6.1.7601.18283
+Cabinet.dll 	6.1.7601.17514
+
+Windows 6.1.7601
+DrMingw 0.7.7
+
